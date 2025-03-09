@@ -37,7 +37,7 @@ exports.createIssue = async (req, res) => {
       title,
       body,
     });
-    res.status(201).json({ issus_url: response.data.html_url });
+    res.status(201).json({ issue_url: response.data.html_url });
   } catch (error) {
     res.status(500).json({ error: "Error creating Github issue" });
   }
