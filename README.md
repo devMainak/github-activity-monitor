@@ -7,7 +7,7 @@ This backend provides APIs for fetching github details, fetching repo details, a
 ## Base URL
 
 ```
-https://the-poll-app.vercel.app/
+https://github-activity-seven.vercel.app/
 ```
 
 ## API Endpoints
